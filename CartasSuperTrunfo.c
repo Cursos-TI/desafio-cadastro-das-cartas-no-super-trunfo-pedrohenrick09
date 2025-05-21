@@ -63,10 +63,10 @@ int main(){
     scanf("%d", &carta2.populacao);
 
     printf("digite a area (em km²):");
-    scanf("%f", &carta2.area);
+    scanf("%.2f", &carta2.area);
 
     printf("Digite o PIB da cidade:");
-    scanf("%f", &carta2.pib);
+    scanf("%.2f", &carta2.pib);
 
     printf("Digite a quantidade de pontos turisticos:");
     scanf("%d", &carta2.pontosturisticos);
@@ -77,7 +77,7 @@ int main(){
 
     //impressão das cartas cadastradas
 
-    printf("\n Carta 1: \n");
+    printf("\n*** Carta 1 *** \n");
     printf("Estado: %s \n", carta1.estado);
     printf("Codigo da carta: %s \n", carta1.codigo);
     printf("Nome da cidade: %s \n", carta1.nomedacidade);
@@ -89,7 +89,7 @@ int main(){
     printf("PIB per Capita (R$): %.2f\n", carta1.pibpercapta);
 
 
-    printf("\n Carta 2: \n");
+    printf("\n*** Carta 2 ***\n");
     printf("Estado: %s \n", carta2.estado);
     printf("Codigo da carta: %s \n", carta2.codigo);
     printf("Nome da cidade: %s \n", carta2.nomedacidade);

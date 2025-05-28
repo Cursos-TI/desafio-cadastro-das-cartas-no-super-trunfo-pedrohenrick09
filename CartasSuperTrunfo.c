@@ -61,7 +61,6 @@ int main(){
 
     printf("Digite a população:");
     scanf("%d", &carta2.populacao);
-
     printf("digite a area (em km²):");
     scanf("%.2f", &carta2.area);
 
